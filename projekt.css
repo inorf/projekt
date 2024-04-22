@@ -167,6 +167,7 @@ a{
     width: 90%;
     color: azure;
     position: absolute;
+    top: 40%;
     left: 5%;
     transform: translate(-50% -50%);
     text-align: center;
@@ -185,7 +186,6 @@ a{
 @media (orientation : landscape){
 
     .text-box h1 {
-        top: 30%;
         font-size: 50px;
     }
 
@@ -194,7 +194,6 @@ a{
 @media (orientation : portrait) {
 
     .text-box h1 {
-        top: 40%;
         font-size: 30px;
     }
        
