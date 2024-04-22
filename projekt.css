@@ -66,33 +66,6 @@ body {
     font-family: Poppins, sans-serif;
 }
 
-
-
-@media (orientation : landscape) {
-
-.header {
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    min-height: 100vh;
-    position: relative;
-}
-
-.text-box {
-    width: 90%;
-    color: azure;
-    position: absolute;
-    top: 40%;
-    left: 5%;
-    transform: translate(-50% -50%);
-    text-align: center;
-
-}
-
-.text-box h1 {
-    font-size: 52px;
-}
-
 .text-box p {
     margin: 10px 0 40px;
     font-size: 14px;
@@ -182,120 +155,46 @@ a{
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 
+.header {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
 }
 
-@media (orientation : portrait){
+.text-box {
+    width: 90%;
+    color: azure;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    transform: translate(-50% -50%);
+    text-align: center;
 
-    .header {
-        width: 100%;
-        background-size: cover;
-        background-position: center;
-        min-height: 100vh;
-        position: relative;
+}
+
+@media (orientation : landscape){
+
+    .text-box h1 {
+        font-size: 52px;
     }
-    
-    .text-box {
-        width: 90%;
-        color: azure;
-        position: absolute;
-        top: 40%;
-        left: 5%;
-        transform: translate(-50% -50%);
-        text-align: center;
-    
-    }
-    
+
+}
+
+@media (orientation : portrait) {
+
     .text-box h1 {
         font-size: 30px;
     }
-    
-    .text-box p {
-        margin: 10px 0 40px;
-        font-size: 14px;
-        color: azure;
-    
-    }
-    
-    .hero-btn {
-        display: inline-block;
-        text-decoration: none;
-        color: azure;
-        border: 1px solid #fff;
-        padding: 12px 34px;
-        font-size: 13px;
-        background: transparent;
-        position: relative;
-        cursor: pointer;
-    
-    }
-    
-    .hero-btn:hover {
-        border: 1px solid #c76fed;
-        background: #c76fed;
-        transition: 1s;
-    
-    
-    }
-    
-    .offers {
-        text-align: center;
-        padding-left: 10%;
-        padding-right:10%;
-        background-color: azure;
-        padding-top: 100px;
-        height: fit-content;
-        width: fit-content;
-        padding-bottom: 4%;
-        margin: 1%;
-        border-radius: 30px;
-    }
-    
-    h1 {
-        font-size: 36px;
-        font-weight: 600;
-    
-    }
-    
-    p {
-        color: #5b4469;
-        font-size: 15px;
-        font-weight: 300;
-        line-height: 20px;
-    }
-    
-    .row {
-        margin-top: 5%;
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    .rowbot {
-        margin-top: 5%;
-    }
-    
-    h3 {
-        text-align: center;
-        font-weight: 600;
-        margin: 10px 0;
-        color: #501866;
-    }
-    
-    a{
-        text-decoration: none;
-    }
-    
-    .col {
-        flex-basis: 40%;
-        background: #f7defc;
-        border-radius: 15px;
-        padding: 20px 12px;
-        box-sizing: border-box;
-        transition: 0.5s;
-    
-    }
-    
-    .col:hover {
-        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
-    }
-    
+       
 }
+/* 
+@media (max-height : 500px) {
+    
+    .text-box {
+        font-size: 25px;
+        top: 20%;
+    }
+
+} */
