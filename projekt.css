@@ -194,6 +194,7 @@ a{
 @media (orientation : portrait) {
 
     .text-box h1 {
+        top: 60%;
         font-size: 30px;
     }
        
