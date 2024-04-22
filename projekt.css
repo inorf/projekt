@@ -167,17 +167,26 @@ a{
     width: 90%;
     color: azure;
     position: absolute;
-    top: 40%;
     left: 5%;
     transform: translate(-50% -50%);
     text-align: center;
 
 }
 
+#copyright{
+    background-color: azure;
+    border-radius: 30px;
+    height: fit-content;
+    width: 94%;
+    padding: 2%;
+    margin: 1%;
+}
+
 @media (orientation : landscape){
 
     .text-box h1 {
-        font-size: 52px;
+        top: 30%;
+        font-size: 50px;
     }
 
 }
@@ -185,16 +194,8 @@ a{
 @media (orientation : portrait) {
 
     .text-box h1 {
+        top: 40%;
         font-size: 30px;
     }
        
 }
-/* 
-@media (max-height : 500px) {
-    
-    .text-box {
-        font-size: 25px;
-        top: 20%;
-    }
-
-} */
